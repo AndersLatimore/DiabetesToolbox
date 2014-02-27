@@ -39,13 +39,13 @@
 						},
 						{
 							title: 'Long Nap',
-							start: new Date(y, m, d-5),
-							end: new Date(y, m, d-2)
+							start: new Date(y, m, d-10),
+							end: new Date(y, m, d-7)
 						},
 						{
 							id: 999,
 							title: 'Take Medicine',
-							start: new Date(y, m, d-3, 16, 0),
+							start: new Date(y, m, d-3, 18, 0),
 							allDay: false
 						},
 						{
@@ -92,10 +92,10 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="#bloodsugar">Bloodsugar</a></li>
-					<li><a href="#caregiver">Caregiver</a></li>
+					<li><a href="bloodsugar.php">Bloodsugar</a></li>
+					<li><a href="caregiver.php">Caregiver</a></li>
 					<li><a href="#history">History</a></li>
-					<li><a href="#calendar">Calendar</a></li>
+					<li><a href="#">Calendar</a></li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a href="#bmi">BMI</a></li>
 				</ul>

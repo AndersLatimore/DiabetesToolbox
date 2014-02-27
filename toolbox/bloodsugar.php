@@ -25,7 +25,7 @@
 				<ul class="container">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="#bloodsugar">Bloodsugar</a></li>
-					<li><a href="#caregiver">Caregiver</a></li>
+					<li><a href="caregiver.php">Caregiver</a></li>
 					<li><a href="#history">History</a></li>
 					<li><a href="#calendar">Calendar</a></li>
 					<li><a href="#contact">Contact</a></li>
