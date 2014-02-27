@@ -33,15 +33,61 @@
 				</ul>
 			</nav>
 
-		<!-- Home -->
-			<div class="wrapper wrapper-style1">
+			<!-- Home -->
+			<div class="wrapper wrapper-style1 wrapper-first">
 				<article class="container" id="top">
 					<div class="row">
+						<div class="4u">
+							<span><img src="images/drcox.jpeg" alt="drcox"></span>
+						</div>
 						<div class="8u">
-							<p><label>Your Caregiver Is: </label></p>
-							
+						<header>
+							<h2>Your Caregiver is <strong>Dr. Cox</strong></h2>
+						</header>
+							<p>Dr. Percival Ulysses Cox, M.D.<br>
+							drcox@scrubs.mail.com<br>
+							tel: 777-777 777</p>
+							<a href="#contact" class="button button-big">Contact</a>
 						</div>
 					</div>
+				</article>
+			</div>
+
+			<!-- Contact -->
+			<div class="wrapper wrapper-style2">
+				<article id="contact" class="container small">
+					<header>
+						<h2>Contact Your Caregiver</h2>
+						<span>Send a message to your caregiver with this form.</span>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<form method="post" action="#">
+									<div>
+										<div class="row half">
+											<div class="12u">
+												<input type="text" name="subject" id="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<textarea name="message" id="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<a href="#" class="button form-button-submit">Send Message</a>
+												<a href="#" class="button button-alt form-button-reset">Clear Form</a>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<footer>
+					</footer>
 				</article>
 			</div>
 
