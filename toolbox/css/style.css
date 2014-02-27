@@ -25,10 +25,12 @@
 	{
 		font-family: 'Open Sans', sans-serif;
 		line-height: 1.85em;
-		color: #888;
+		color: #000;
 		font-weight: 300;
 	}
-
+	.toptitle{
+		margin-top: 8%;
+	}
 	a
 	{
 		color: #3B95C6;
@@ -53,12 +55,14 @@
 	strong, b
 	{
 		font-weight: 600;
-		color: #3e3e3e;
+		/*color: #3e3e3e;*/
+		color: black;
 	}
 	
 	h1, h2, h3, h4, h5, h6
 	{
-		color: #3e3e3e;
+		/*color: #3e3e3e;*/
+		color: black;
 	}
 	
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
@@ -320,7 +324,17 @@
 		.button-big
 		{
 		}
-
+	#button-calc{
+		width: 20%;
+		height: 100%;
+		font-weight: 700;
+		color: black;
+		border: 0.5px solid black;
+	}
+	#button-calc:hover{
+		cursor: pointer;
+		background-color: gray;
+	}
 	ul.social
 	{
 		cursor: default;
