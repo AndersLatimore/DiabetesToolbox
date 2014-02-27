@@ -40,7 +40,7 @@
 						<div class="8u">
 							<p><label>Fill in blood sugar value here:</label></p>
 							<textarea rows="4" cols="50" placeholder="Blood sugar value" style="font-size:large"></textarea>
-							<p><a href="#work" class="button">Submit</a></p>
+							<p><a href="bloodsugar-levels.php" class="button">Submit</a></p>
 						</div>
 					</div>
 				</article>

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Toolbox For Diabetes Aid | Bloodsugar Levels</title>
+		<title>Toolbox For Diabetes Aid | Bloodsugar</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -9,6 +9,8 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
+		<script src="js/raphael.2.1.0.min.js"></script>
+		<script src="js/justgage.1.0.1.min.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -24,7 +26,7 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="#bloodsugar">Bloodsugar</a></li>
+					<li><a href="bloodsugar.php">Bloodsugar</a></li>
 					<li><a href="#caregiver">Caregiver</a></li>
 					<li><a href="#history">History</a></li>
 					<li><a href="#calendar">Calendar</a></li>
@@ -38,13 +40,22 @@
 				<article class="container" id="top">
 					<div class="row">
 						<div class="8u">
-							<p><label>Fill in blood sugar value here:</label></p>
-							<textarea rows="4" cols="50" placeholder="Blood sugar value" style="font-size:large"></textarea>
-							<p><a href="#work" class="button">Submit</a></p>
+							<a href="bloodsugar.php" class="button">Back</a>
+							<div id="gauge" class="200x160px"></div>
+							<p>Your values are a bit high. Eat something sweet.</p>
 						</div>
 					</div>
 				</article>
 			</div>
+			<script>
+			  var g = new JustGage({
+			    id: "gauge", 
+			    value: 70, 
+			    min: 0,
+			    max: 150,
+			    title: "Your Blood Sugar Levels"
+			  }); 
+			</script>
 
 	</body>
 </html>
