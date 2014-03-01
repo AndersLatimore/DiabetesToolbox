@@ -94,10 +94,10 @@
 					<li><a href="index.html">Home</a></li>
 					<li><a href="bloodsugar.php">Bloodsugar</a></li>
 					<li><a href="caregiver.php">Caregiver</a></li>
-					<li><a href="#history">History</a></li>
-					<li><a href="#">Calendar</a></li>
+					<li><a href="history.php">History</a></li>
+					<li><a href="#" class="active">Calendar</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a href="#bmi">BMI</a></li>
+					<li><a href="bmi.php">BMI</a></li>
 				</ul>
 			</nav>
 
@@ -110,6 +110,44 @@
 							<div id='calendar'></div>
 						</div>
 					</div>
+				</article>
+			</div>
+		<!-- Contact -->
+			<div class="wrapper wrapper-style2">
+				<article id="contact" class="container small">
+					<header>
+						<h2>Contact Your Caregiver</h2>
+						<span>Send a message to your caregiver with this form.</span>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<form method="post" action="#">
+									<div>
+										<div class="row half">
+											<div class="12u">
+												<input type="text" name="subject" id="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row half">
+											<div class="12u">
+												<textarea name="message" id="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<a href="#" class="button form-button-submit">Send Message</a>
+												<a href="#" class="button button-alt form-button-reset">Clear Form</a>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<a href="#" class="go-top">Go Top</a>
+					</footer>
 				</article>
 			</div>
 

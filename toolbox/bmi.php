@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Toolbox For Diabetes Aid</title>
+		<title>Toolbox For Diabetes Aid | BMI</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -28,13 +28,13 @@
 					<li><a href="caregiver.php">Caregiver</a></li>
 					<li><a href="history.php">History</a></li>
 					<li><a href="calendar.php">Calendar</a></li>
-					<li><a href="contact.php">Contact</a></li>
-					<li><a href="#">BMI</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#" class="active">BMI</a></li>
 				</ul>
 			</nav>
 
 		<!-- Home -->
-			
+			<div class="wrapper wrapper-style1">
 				<article class="container" id="top">
 					<div class="row">
 						<div class="8u">
@@ -51,31 +51,11 @@
 							</script>
 						</div>
 					</div>
-				</article>
-			
-
-		<!-- Work -->
-			<div class="wrapper wrapper-style2">
-				<article id="bloodsugar">
-					<header>
-						<h2>Navigation</h2>
-						<span>Find Your Services Here</span>
-					</header>
-					<p><a href="bloodsugar.php" class="button button-big">Bloodsugar</a>
-					<a href="history.php" class="button button-big">History</a></p>
-					<p><a href="caregiver.php" class="button button-big">Caregiver</a>
-					<a href="calendar.php" class="button button-big">Calendar</a></p>
-					<p><a href="#" class="button button-big">BMI</a>
-					<a href="contact.php" class="button button-big">Contact</a></p>
-					<footer>
-						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
-						<a href="#portfolio" class="button button-big">Learn more</a>
-					</footer>
-				</article>
 			</div>
+				</article>
 
 		<!-- Contact -->
-			<div class="wrapper wrapper-style1">
+			<div class="wrapper wrapper-style2">
 				<article id="contact" class="container small">
 					<header>
 						<h2>Contact Your Caregiver</h2>
@@ -108,6 +88,7 @@
 						</div>
 					</div>
 					<footer>
+						<a href="#" class="go-top">Go Top</a>
 					</footer>
 				</article>
 			</div>

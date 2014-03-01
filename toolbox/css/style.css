@@ -980,6 +980,11 @@
 				border-right: solid 0.75em transparent;
 				border-top: solid 0.6em #282828;
 			}
+
+			#nav a.active {
+				text-decoration: underline;
+				background-color: #808080;
+			}
 			
 /*********************************************************************************/
 /* Articles                                                                      */
@@ -1003,6 +1008,25 @@
 			{
 				color: inherit;
 			}
+
+/***********************************************************************************************/
+/* Go Top Button */
+/***********************************************************************************************/
+.go-top {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+	text-decoration: none;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 12px;
+	padding: 1em;
+	display: none;
+}
+
+.go-top:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+}
 
 /*********************************************************************************/
 /* Copyright                                                                     */

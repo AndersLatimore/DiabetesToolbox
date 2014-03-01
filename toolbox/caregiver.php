@@ -25,11 +25,11 @@
 				<ul class="container">
 					<li><a href="index.html">Home</a></li>
 					<li><a href="bloodsugar.php">Bloodsugar</a></li>
-					<li><a href="#">Caregiver</a></li>
-					<li><a href="#history">History</a></li>
-					<li><a href="#calendar">Calendar</a></li>
+					<li><a href="#" class="active">Caregiver</a></li>
+					<li><a href="history.php">History</a></li>
+					<li><a href="calendar.php">Calendar</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a href="#bmi">BMI</a></li>
+					<li><a href="bmi.php">BMI</a></li>
 				</ul>
 			</nav>
 
@@ -87,6 +87,7 @@
 						</div>
 					</div>
 					<footer>
+						<a href="#" class="go-top">Go Top</a>
 					</footer>
 				</article>
 			</div>
