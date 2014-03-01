@@ -41,12 +41,18 @@
 							<header class="toptitle">
 								<h1>BMI <strong>Calculator</strong></h1>
 							</header>
+							<div id="bmi_left">
 							<form name=bmi id="bmiform">
 								Weight (kg): <input type=text name=wg size=5 >
-								Height (cm):<input type=text name=ht size=5 >
-								Result: <input type="text" name=desc size=30 class=content readonly >
+								Height (cm):<input type=text name=ht size=5 >								
 							</form>
 							<input type=button onClick="calc()" class="button button-big" value="Calculate">
+							</div> <!-- End of bmi_left -->
+							<div id="bmi_right">
+							BMI Value:
+							<div id="resultStuff" name=desc size=30 class=content readonly> </div>
+							Category:<div id="resultStuff_Cat" name=desc size=30 class=content readonly> </div>
+							</div> <!-- End of bmi_right -->
 							<script language=javascript SRC="js/bmi.js">
 							</script>
 						</div>

@@ -35,6 +35,19 @@
 		margin-bottom: 2%;
 
 	}
+	#bmi_left, #bmi_right{
+		float: left;
+		width: 45%;
+	}
+	#bmi_left{
+		margin-right: 5%;
+	}
+	#bmi_right{
+		display: none;
+	}
+	#resultStuff,#resultStuff_Cat{
+		height: 3.1em;
+	}
 	a
 	{
 		color: #3B95C6;
@@ -101,7 +114,9 @@
 	
 		form input,
 		form select,
-		form textarea
+		form textarea,
+		#resultStuff,
+		#resultStuff_Cat
 		{
 			-webkit-appearance: none;
 		}
@@ -109,7 +124,9 @@
 		form input[type=text],
 		form input[type=password],
 		form select,
-		form textarea
+		form textarea,
+		#resultStuff,
+		#resultStuff_Cat
 		{
 			border: 0;
 			padding: 0.75em;

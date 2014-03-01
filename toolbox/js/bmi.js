@@ -58,26 +58,41 @@ function calc()
 	// 	//document.bmi.us.value=Math.round((us/2.2)*100)/100;
 	// 	//document.bmi.uk.value=Math.round((uk/2.2)*100)/100;
 	// }
-	var d = "Your category is "
+	//var d = "Your category is: ";
+	var result = document.getElementById('resultStuff');
+	var category = document.getElementById('resultStuff_Cat');
+	category.innerHTML = '';
+	var toggleResult = document.getElementById('bmi_right');
 	if(si<15)
 	{
-		document.bmi.desc.value= d + "Starvation";
+		toggleResult.style.display ="inline";
+		category.innerHTML = "Starvation";
+		result.innerHTML= si;
 	}
 	else if(si>15 && si<=18.5)
 	{
-		document.bmi.desc.value= d + "Underweight";
+		toggleResult.style.display ="inline";
+		category.innerHTML= "Underweight";
+		result.innerHTML= si;
 	}
 	else if(si>18.5 && si<=25)
 	{	
-		document.bmi.desc.value= d + "Normal";	
+		toggleResult.style.display ="inline";
+		category.innerHTML= "Normal";
+		category.style.backgroundColor ="green";
+		result.innerHTML= si;	
 	}
 	else if(si>25 && si<=30)
 	{
-		document.bmi.desc.value=d + "Overweight";
+		toggleResult.style.display ="inline";
+		category.innerHTML= "Overweight";
+		result.innerHTML= si;
 	}
 	else if(si>30)
 	{
-		document.bmi.desc.value=d + "Obese";
+		toggleResult.style.display ="inline";
+		category.innerHTML= "Obese";
+		result.innerHTML= si;
 	}
 }
 
