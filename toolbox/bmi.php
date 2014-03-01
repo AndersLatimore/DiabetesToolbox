@@ -49,10 +49,30 @@
 							<input type=button onClick="calc()" class="button button-big" value="Calculate">
 							</div> <!-- End of bmi_left -->
 							<div id="bmi_right">
-							BMI Value:
-							<div id="resultStuff" name=desc size=30 class=content readonly> </div>
-							Category:<div id="resultStuff_Cat" name=desc size=30 class=content readonly> </div>
+								BMI Value:
+								<div id="resultStuff" name=desc size=30 class=content readonly align="center"> </div>
+								<!--Category:<div id="resultStuff_Cat" name=desc size=30 class=content readonly align="center"> </div> -->
+								
+									Scale: <div id="resultStuff_scale" name=desc size=30 class=content readonly >
+										<div id="starvation"> 
+										Starvation = 0-14
+										</div>
+										<div id="underweight">
+										Underweight = 15-18
+										</div>
+										<div id="normal">
+										Normal = 19-25
+										</div>
+										<div id="overweight">
+										Overweight = 26-30
+										</div>
+										<div id="obese">
+										Obese = 30+	
+										</div>
+								
 							</div> <!-- End of bmi_right -->
+							
+							</div>
 							<script language=javascript SRC="js/bmi.js">
 							</script>
 						</div>

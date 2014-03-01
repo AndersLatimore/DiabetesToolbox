@@ -58,40 +58,42 @@ function calc()
 	// 	//document.bmi.us.value=Math.round((us/2.2)*100)/100;
 	// 	//document.bmi.uk.value=Math.round((uk/2.2)*100)/100;
 	// }
-	//var d = "Your category is: ";
 	var result = document.getElementById('resultStuff');
-	var category = document.getElementById('resultStuff_Cat');
-	category.innerHTML = '';
 	var toggleResult = document.getElementById('bmi_right');
+	document.getElementById('starvation').style.fontWeight = 300;
+	document.getElementById('underweight').style.fontWeight = 300;
+	document.getElementById('normal').style.fontWeight = 300;
+	document.getElementById('overweight').style.fontWeight = 300;
+	document.getElementById('obese').style.fontWeight = 300;
+	
 	if(si<15)
 	{
 		toggleResult.style.display ="inline";
-		category.innerHTML = "Starvation";
+		document.getElementById('starvation').style.fontWeight = 700;
 		result.innerHTML= si;
 	}
-	else if(si>15 && si<=18.5)
+	else if(si>=15 && si<19)
 	{
 		toggleResult.style.display ="inline";
-		category.innerHTML= "Underweight";
+		document.getElementById('underweight').style.fontWeight = 700;
 		result.innerHTML= si;
 	}
-	else if(si>18.5 && si<=25)
+	else if(si>=19 && si<=25)
 	{	
 		toggleResult.style.display ="inline";
-		category.innerHTML= "Normal";
-		category.style.backgroundColor ="green";
+		document.getElementById('normal').style.fontWeight = 700;
 		result.innerHTML= si;	
 	}
 	else if(si>25 && si<=30)
 	{
 		toggleResult.style.display ="inline";
-		category.innerHTML= "Overweight";
+		document.getElementById('overweight').style.fontWeight = 700;
 		result.innerHTML= si;
 	}
 	else if(si>30)
 	{
 		toggleResult.style.display ="inline";
-		category.innerHTML= "Obese";
+		document.getElementById('obese').style.fontWeight = 700;
 		result.innerHTML= si;
 	}
 }

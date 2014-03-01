@@ -45,8 +45,17 @@
 	#bmi_right{
 		display: none;
 	}
+	#bmi_scale{
+		float:right;
+		margin-left: 3%;
+		display: none;
+	}
 	#resultStuff,#resultStuff_Cat{
 		height: 3.1em;
+		font-weight: 700;
+	}
+	#resultStuff_scale{
+		float: left;
 	}
 	a
 	{
@@ -116,7 +125,8 @@
 		form select,
 		form textarea,
 		#resultStuff,
-		#resultStuff_Cat
+		#resultStuff_Cat,
+		#resultStuff_scale
 		{
 			-webkit-appearance: none;
 		}
@@ -126,7 +136,8 @@
 		form select,
 		form textarea,
 		#resultStuff,
-		#resultStuff_Cat
+		#resultStuff_Cat,
+		#resultStuff_scale
 		{
 			border: 0;
 			padding: 0.75em;
