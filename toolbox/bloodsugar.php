@@ -38,9 +38,14 @@
 				<article class="container" id="top">
 					<div class="row">
 						<div class="8u">
-							<p><label>Fill in blood sugar value here:</label></p>
-							<textarea rows="4" cols="50" placeholder="Blood sugar value" style="font-size:large"></textarea>
-							<p><a href="bloodsugar-levels.php" class="button">Submit</a></p>
+							<header class="toptitle">
+								<h1>Bloodsugar <strong>checkup</strong></h1>
+							</header>
+							<form id="bloodsugarForm" action="bloodsugar-levels.php" method="POST" >
+							<label>Fill in bloodsugar value here: (no decimals for now...)</label>
+							<input type="text" placeholder="Bloodsugar value" name="bloodValue" style="margin-bottom: 2%;">
+							<p><input type="submit" class="button button-big" value="Submit" style="margin-left:0%;">
+							</form>
 						</div>
 					</div>
 				</article>
