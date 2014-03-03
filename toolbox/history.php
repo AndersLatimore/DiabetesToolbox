@@ -36,7 +36,7 @@
 
 		<!-- Main History content -->
 			<div class="wrapper wrapper-style1">
-				<article id="contact" class="container small">
+				<article id="history" class="container small">
 					<header>
 						<h2>History</h2>
 						<span>Find out what your glucose levels have been over time.</span>
