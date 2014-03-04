@@ -31,7 +31,8 @@
 				</ul>
 			</nav>
 
-		<!-- Work -->
+		<!-- Patients -->
+			<!-- TODO Create grid layout!! -->
 			<div class="wrapper wrapper-style1">
 				<article id="bloodsugar">
 					<header>

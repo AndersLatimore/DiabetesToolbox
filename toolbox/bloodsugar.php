@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Toolbox For Diabetes Aid | Bloodsugar</title>
+		<title>Toolbox For Diabetes Aid | Glucose</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -35,7 +35,7 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="#bloodsugar" class="active">Bloodsugar</a></li>
+					<li><a href="#bloodsugar" class="active">Glucose</a></li>
 					<li><a href="caregiver.php">Caregiver</a></li>
 					<li><a href="history.php">History</a></li>
 					<li><a href="calendar.php">Calendar</a></li>
@@ -49,10 +49,10 @@
 					<div class="row">
 						<div class="8u">
 							<header class="toptitle">
-								<h1>Bloodsugar <strong>checkup</strong></h1>
+								<h1>Glucose <strong>checkup</strong></h1>
 							</header>
 							<form id="bloodsugarForm" name="bloodsugarForm" action="bloodsugar-levels.php" method="POST" onSubmit="return check();">
-							<label>Fill in bloodsugar value here: (no decimals for now...)</label>
+							<label>Fill in glucose value here: (no decimals for now...)</label>
 							<input type="text" id="bloodValue" placeholder="Bloodsugar value" name="bloodValue" style="margin-bottom: 2%;">
 							<p><input type="submit" class="button button-big" value="Submit" style="margin-left:0%;">
 							</form>

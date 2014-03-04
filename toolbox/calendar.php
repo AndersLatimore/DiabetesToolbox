@@ -92,7 +92,7 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="bloodsugar.php">Bloodsugar</a></li>
+					<li><a href="bloodsugar.php">Glucose</a></li>
 					<li><a href="caregiver.php">Caregiver</a></li>
 					<li><a href="history.php">History</a></li>
 					<li><a href="#" class="active">Calendar</a></li>

@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Toolbox For Diabetes Aid | Bloodsugar Levels</title>
+		<title>Toolbox For Diabetes Aid | Glucose Levels</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -53,7 +53,7 @@
 			<nav id="nav">
 				<ul class="container">
 					<li><a href="index.html">Home</a></li>
-					<li><a href="bloodsugar.php" class="active">Bloodsugar</a></li>
+					<li><a href="bloodsugar.php" class="active">Glucose</a></li>
 					<li><a href="caregiver.php">Caregiver</a></li>
 					<li><a href="history.php">History</a></li>
 					<li><a href="calendar.php">Calendar</a></li>
@@ -69,7 +69,7 @@
 						<div class="8u">
 							<a href="bloodsugar.php" class="button">Back</a>
 							<p>Date: <input type="text" id="datepicker"></p>
-							<div id="gauge" class="200x160px"></div>
+							<div id="gauge" class="220x180px"></div>
 							<p style="text-align:center;">
 								<?php 
 									 if($tempvalue <= 1){ echo $bloodAnswer[0]; }
@@ -96,7 +96,7 @@
 			    value: temp, 
 			    min: 0,
 			    max: 40,
-			    title: "Your Blood Sugar Levels"
+			    title: "Your Glucose Levels"
 			  }); 
 			</script>
 		<!-- Contact -->
