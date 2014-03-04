@@ -9,6 +9,8 @@
 		<script src="js/jquery.min.js"></script>
 		<script src="js/config.js"></script>
 		<script src="js/skel.min.js"></script>
+		<script src="js/jquery.plugin.js"></script>
+		<script src="js/jquery.keypad.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -28,6 +30,11 @@
                 }
             }
         </script>
+        <script>
+			$(function () {
+				$('#bloodValue').keypad();
+			});
+		</script>
 	</head>
 	<body>
 
