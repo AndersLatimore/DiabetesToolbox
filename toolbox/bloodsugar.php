@@ -62,7 +62,7 @@
 							<form id="bloodsugarForm" name="bloodsugarForm" action="bloodsugar-levels.php" method="POST" onSubmit="return check();">
 							<label>Fill in glucose value here: (no decimals for now...)</label>
 							<input type="text" id="bloodValue" placeholder="Bloodsugar value" name="bloodValue" style="margin-bottom: 2%;">
-							<p><input type="submit" class="button button-big" value="Submit" style="float:right;">
+							<p><input type="submit" class="button button-big" value="Submit">
 							</form>
 
 						</div>

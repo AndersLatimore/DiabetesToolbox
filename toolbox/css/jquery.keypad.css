@@ -14,7 +14,7 @@ img.keypad-trigger {
 .keypad-popup {
 	display: none;
 	z-index: 10;
-	margin: 0;
+	margin-left: 25%;
 	padding: 0;
 	background-color: #fff;
 	color: #000;
