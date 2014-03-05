@@ -60,6 +60,7 @@ function calc()
 	// }
 	var result = document.getElementById('resultStuff');
 	var toggleResult = document.getElementById('bmi_right');
+	var numpad = document.getElementById('keypad');
 	document.getElementById('starvation').style.fontWeight = 300;
 	document.getElementById('underweight').style.fontWeight = 300;
 	document.getElementById('normal').style.fontWeight = 300;
@@ -69,30 +70,35 @@ function calc()
 	if(si<15)
 	{
 		toggleResult.style.display ="inline";
+		numpad.style.display = "none";
 		document.getElementById('starvation').style.fontWeight = 700;
 		result.innerHTML= si;
 	}
 	else if(si>=15 && si<19)
 	{
 		toggleResult.style.display ="inline";
+		numpad.style.display = "none";
 		document.getElementById('underweight').style.fontWeight = 700;
 		result.innerHTML= si;
 	}
 	else if(si>=19 && si<=25)
 	{	
 		toggleResult.style.display ="inline";
+		numpad.style.display = "none";
 		document.getElementById('normal').style.fontWeight = 700;
 		result.innerHTML= si;	
 	}
 	else if(si>25 && si<=30)
 	{
 		toggleResult.style.display ="inline";
+		numpad.style.display = "none";
 		document.getElementById('overweight').style.fontWeight = 700;
 		result.innerHTML= si;
 	}
 	else if(si>30)
 	{
 		toggleResult.style.display ="inline";
+		numpad.style.display = "none";
 		document.getElementById('obese').style.fontWeight = 700;
 		result.innerHTML= si;
 	}

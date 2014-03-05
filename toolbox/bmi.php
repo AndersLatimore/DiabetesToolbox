@@ -44,7 +44,7 @@
 							<div id="bmi_left">
 							<form name=bmi id="bmiform">
 								Weight (kg): <input type=text name=wg size=5 >
-								Height (cm):<input type=text name=ht size=5 >								
+								Height (cm):<input type=text name=ht size=5 >						
 							</form>
 							<input type=button onClick="calc()" class="button button-big" value="Calculate" style="float:right;">
 							</div> <!-- End of bmi_left -->
@@ -71,8 +71,19 @@
 										</div>
 								
 							</div> <!-- End of bmi_right -->
-							
 							</div>
+							<div id="keypad">
+								<input type=button id="one" class="button button-big" value="1" style="width: 10%;">
+								<input type=button id="two" class="button button-big" value="2" style="width: 10%;">
+								<input type=button id="three" class="button button-big" value="3" style="width: 10%;">
+								<input type=button id="four" class="button button-big" value="4" style="width: 10%;">
+								<input type=button id="five" class="button button-big" value="5" style="width: 10%;">
+								<input type=button id="six" class="button button-big" value="6" style="width: 10%;">
+								<input type=button id="seven" class="button button-big" value="7" style="width: 10%;">
+								<input type=button id="eight" class="button button-big" value="8" style="width: 10%;">
+								<input type=button id="nine" class="button button-big" value="9" style="width: 10%;">
+								<input type=button id="zero" class="button button-big" value="0" style="width: 10%;">
+								</div>		
 							<script language=javascript SRC="js/bmi.js">
 							</script>
 						</div>
