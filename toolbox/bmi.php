@@ -52,7 +52,7 @@
 							</header>
 							<div id="bmi_left">
 							<form name=bmi id="bmiform">
-								Weight (kg): <input type=text name=wg id="fWeight" size=5 autofocus> <!--onClick="toggleFocus('w')" -->
+								Weight (kg): <input type=text name=wg id="fWeight" size=5 > <!--onClick="toggleFocus('w')" -->
 								Height (cm):<input type=text name=ht id="fHeight" size=5 ><!--onClick="toggleFocus('h')" readonly -->						
 							</form>
 							<input type=button onClick="calc()" class="button button-big" value="Calculate" style="float:right;">

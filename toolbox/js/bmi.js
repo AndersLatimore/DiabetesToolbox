@@ -64,7 +64,7 @@ function calc()
 	else if(si>30)
 	{
 		toggleResult.style.display ="inline";
-		numpad.style.display = "none";
+		//numpad.style.display = "none";
 		document.getElementById('obese').style.fontWeight = 700;
 		result.innerHTML= si;
 	}
