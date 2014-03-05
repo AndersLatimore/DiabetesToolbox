@@ -2,23 +2,8 @@ function calc()
 {
 	var wt = document.bmi.wg.value;
 	var ht = document.bmi.ht.value;
-	
-	//var op=document.bmi.opt1.value;
-	
-	// //SI value
-	 var h = ht/100;
-	 var si = Math.round((wt/(h*h))*100)/100;
-	// document.bmi.si.value = si;
-	
-	// //US value
-	// var lb = wt*2.2;
-	// var ic = ht*0.39;
-	// var us = Math.round((703*(lb/(ic * ic)))*100)/100;
-	// document.bmi.us.value = us;
-	
-	// //UK value
-	// var uk = Math.round((6.35*si)*100)/100;
-	// document.bmi.uk.value = uk;
+	var h = ht/100;
+	var si = Math.round((wt/(h*h))*100)/100;
 	
 	//If value is not given for weight
 	if(wt=="")
@@ -29,37 +14,16 @@ function calc()
 	//If weight is less than 10
 	else if(wt<=10)
 	{
-		//document.bmi.si.value = 0;
-		//document.bmi.us.value = 0;
-		//document.bmi.uk.value = 0;
 		setTimeout(function(){window.location.href = "bmi.php"}, 3000);
 		alert("Weight should be greater than 10kgs");
 	}
 	
-	//If weight is pounds and less than 22lbs
-	// else if(op=="pounds" && wt<=22)
-	// {
-	// 	//document.bmi.si.value = 0;
-	// 	//document.bmi.us.value = 0;
-	// 	//document.bmi.uk.value = 0;
-	// 	alert("Weight should be greater than 22lbs");
-	// }
-	
 	//If given height is less than 33cms
 	else if(ht<33)
 	{
-		//document.bmi.si.value = 0;
-		//document.bmi.us.value = 0;
-		//document.bmi.uk.value = 0;
 		setTimeout(function(){window.location.href = "bmi.php"}, 3000);
 		alert("Height should be taller than 33cms");
 	}
-	// else if(op=="pounds")
-	// {
-	// 	//document.bmi.si.value=Math.round((si/2.2)*100)/100;
-	// 	//document.bmi.us.value=Math.round((us/2.2)*100)/100;
-	// 	//document.bmi.uk.value=Math.round((uk/2.2)*100)/100;
-	// }
 	var result = document.getElementById('resultStuff');
 	var toggleResult = document.getElementById('bmi_right');
 	var numpad = document.getElementById('keypad');
@@ -127,8 +91,6 @@ function conv(aa)//Height conversion
 			var cm=Math.round(ht/2.54);
 			var div=parseInt(cm/12);
 			var md=cm%12;
-			//document.bmi.opt2.value=div;
-			//document.bmi.opt3.value=md;
 		}
          }
 

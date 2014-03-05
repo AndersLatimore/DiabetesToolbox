@@ -30,13 +30,14 @@
 	}
 	#one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #okay, #erase{
 		margin-bottom: 1%;
+		text-align: center;
 	}
 	#keypad{
 		float: right;
 		width: 50%;
 	}
 	.toptitle{
-		margin-top: 8%;
+		margin-top: 1%;
 	}
 	#bmiform{
 		margin-bottom: 2%;

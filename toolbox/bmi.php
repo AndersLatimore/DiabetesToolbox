@@ -43,8 +43,8 @@
 							</header>
 							<div id="bmi_left">
 							<form name=bmi id="bmiform">
-								Weight (kg): <input type=text name=wg id="fWeight" size=5 onClick="toggleFocus('w')" autofocus>
-								Height (cm):<input type=text name=ht id="fHeight" size=5 onClick="toggleFocus('h')" readonly>						
+								Weight (kg): <input type=text name=wg id="fWeight" size=5 autofocus> <!--onClick="toggleFocus('w')" -->
+								Height (cm):<input type=text name=ht id="fHeight" size=5 ><!--onClick="toggleFocus('h')" readonly -->						
 							</form>
 							<input type=button onClick="calc()" class="button button-big" value="Calculate" style="float:right;">
 							</div> <!-- End of bmi_left -->
@@ -72,7 +72,7 @@
 								
 							</div> <!-- End of bmi_right -->
 							</div>
-							<div id="keypad">
+							<!-- <div id="keypad">
 								<input type=button id="one" onClick="printNumber(this.value)" class="button button-big" value="1" style="width: 10%;">
 								<input type=button id="two" onClick="printNumber(this.value)" class="button button-big" value="2" style="width: 10%;">
 								<input type=button id="three" onClick="printNumber(this.value)" class="button button-big" value="3" style="width: 10%;">
@@ -85,7 +85,7 @@
 								<input type=button id="zero" onClick="printNumber(this.value)" class="button button-big" value="0" style="width: 10%;">
 								<input type=button id="okay" onClick="toggleFocus('b')" class="button button-big" value="Height" style="width: 10%;">
 								<input type=button id="erase" onClick="backspaceAtCursor()" class="button button-big" value="Erase" style="width: 10%;">
-								</div>		
+							</div>		 -->
 							<script language=javascript SRC="js/bmi.js">
 							</script>
 						</div>
