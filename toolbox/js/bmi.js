@@ -32,6 +32,7 @@ function calc()
 		//document.bmi.si.value = 0;
 		//document.bmi.us.value = 0;
 		//document.bmi.uk.value = 0;
+		setTimeout(function(){window.location.href = "bmi.php"}, 3000);
 		alert("Weight should be greater than 10kgs");
 	}
 	
@@ -50,6 +51,7 @@ function calc()
 		//document.bmi.si.value = 0;
 		//document.bmi.us.value = 0;
 		//document.bmi.uk.value = 0;
+		setTimeout(function(){window.location.href = "bmi.php"}, 3000);
 		alert("Height should be taller than 33cms");
 	}
 	// else if(op=="pounds")
@@ -150,4 +152,65 @@ function unit()  //Weight conversion
 		document.bmi.wg.value=Math.round(ww/2.2);
 	}
 }
+var toggleInput = 0;
+function printNumber(val){
+	var pVal = parseInt(val);
+	if(toggleInput === 0){
+		document.getElementById('fWeight').value += pVal;	
+	}
+	else{
+		document.getElementById('fHeight').value += pVal;
+	}
+}
+function toggleFocus(type){
+	if(type === 'w'){
+		toggleInput = 0;
+		document.getElementById('fWeight').readOnly = false;
+		document.getElementById('fWeight').focus();
+		document.getElementById('fHeight').readOnly = true;
+		document.getElementById('okay').value = 'Height';
+	}
+	else if(type === 'h'){
+		toggleInput = 1;
+		
+		document.getElementById('fHeight').readOnly = false;
+		document.getElementById('fHeight').focus();
+		document.getElementById('fWeight').readOnly = true; 
+		document.getElementById('okay').value = 'Weight';
+	}
+	else if(type === 'b'){
+		if(toggleInput === 0){ 
+			toggleFocus('h');
+		}
+		else if(toggleInput === 1){
+			toggleFocus('w');
+		}
+	}
+}
+function backspaceAtCursor()
+  {
+    var field;
+    if(toggleInput === 0){ field = document.getElementById('fWeight'); }
+    else { field = document.getElementById('fHeight'); }
 
+    if(field.selectionStart)
+    {
+      var startPos = field.selectionStart;
+      var endPos = field.selectionEnd;
+
+      if(field.selectionStart == field.selectionEnd)
+      {
+        field.value = field.value.substring(0, startPos - 1) + field.value.substring(endPos, field.value.length);
+
+        field.focus(); 
+        field.setSelectionRange(startPos - 1, startPos - 1); 
+      }
+      else
+      {
+        field.value = field.value.substring(0, startPos) + field.value.substring(endPos, field.value.length);
+
+        field.focus(); 
+        field.setSelectionRange(startPos, startPos); 
+      }
+    }
+  }
