@@ -46,7 +46,7 @@
 								Weight (kg): <input type=text name=wg size=5 >
 								Height (cm):<input type=text name=ht size=5 >								
 							</form>
-							<input type=button onClick="calc()" class="button button-big" value="Calculate">
+							<input type=button onClick="calc()" class="button button-big" value="Calculate" style="float:right;">
 							</div> <!-- End of bmi_left -->
 							<div id="bmi_right">
 								BMI Value:

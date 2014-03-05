@@ -8,8 +8,8 @@ img.keypad-trigger {
 	vertical-align: middle;
 }
 .keypad-popup, .keypad-inline, .keypad-key, .keypad-special {
-	font-family: Arial,Helvetica,sans-serif;
-	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
 }
 .keypad-popup {
 	display: none;
