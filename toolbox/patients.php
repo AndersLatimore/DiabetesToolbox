@@ -38,12 +38,16 @@
 						<h2>Your Patients</h2>
 						<span>All Your Current Patients Are Listed Here</span>
 					</header>
-					<div class="patients">
-						<img src="images/patients/face1.jpeg" style="width:200px; height:150px"><a href="single-patient.php"><p>Anna Annasson</a></p>
-						<img src="images/patients/face2.jpeg" style="width:200px; height:150px"><p>Stefan Stefansson</p>
-						<img src="images/patients/face3.jpeg" style="width:200px; height:150px"><p>Rut Rutsson</p>
-						<img src="images/patients/face4.jpeg" style="width:200px; height:150px"><p>Gustav Gustavsson</p>
-					</div>
+					<table class="patients" style="width:300px;">
+						<tr>
+						  <td><img src="images/patients/face1.jpeg" style="width:200px; height:150px"><a href="single-patient.php"><p>Anna Annasson</a></p></td>
+						  <td><img src="images/patients/face2.jpeg" style="width:200px; height:150px"><p>Stefan Stefansson</p></td>		
+						  </tr>
+						  <tr>
+						  <td style="border-style:solid;border-width:medium;border-color:red;"><img src="images/patients/face3.jpeg" style="width:200px; height:150px"><p>Rut Rutsson</p></td>
+						  <td><img src="images/patients/face4.jpeg" style="width:200px; height:150px"><p>Gustav Gustavsson</p></td>
+						</tr>
+					</table>
 				</article>
 			</div>
 
