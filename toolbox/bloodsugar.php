@@ -47,7 +47,7 @@
 					<li><a href="caregiver.php">Caregiver</a></li>
 					<li><a href="history.php">History</a></li>
 					<li><a href="calendar.php">Calendar</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="contact.php">Contact</a></li>
 					<li><a href="bmi.php">BMI</a></li>
 				</ul>
 			</nav>
@@ -69,10 +69,13 @@
 					</div>
 				</article>
 			</div>
+<<<<<<< HEAD
 					<footer>
 						<a href="#" class="go-top">Go Top</a>
 					</footer>
 				</article>
 			</div>
+=======
+>>>>>>> FETCH_HEAD
 	</body>
 </html>

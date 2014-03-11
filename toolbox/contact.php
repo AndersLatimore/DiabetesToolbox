@@ -37,63 +37,50 @@
 					<li><a href="caregiver.php">Caregiver</a></li>
 					<li><a href="history.php">History</a></li>
 					<li><a href="calendar.php">Calendar</a></li>
-					<li><a href="contact.php">Contact</a></li>
+					<li><a href="#contact">Contact</a></li>
 					<li><a href="bmi.php" class="active">BMI</a></li>
 				</ul>
 			</nav>
 
-		<!-- Home -->
-			<div class="wrapper wrapper-style1">
-				<article class="container" id="top">
-					<div class="row">
-						<div class="8u">
-							<header class="toptitle">
-								<h1>BMI <strong>Calculator</strong></h1>
-							</header>
-							<div id="bmi_left">
-							<form name=bmi id="bmiform">
-								Weight (kg): <input type=text name=wg id="fWeight" size=5 > <!--onClick="toggleFocus('w')" -->
-								Height (cm):<input type=text name=ht id="fHeight" size=5 ><!--onClick="toggleFocus('h')" readonly -->						
-							</form>
-							<input type=button onClick="calc()" class="button button-big" value="Calculate">
-							</div> <!-- End of bmi_left -->
-							<div id="bmi_right">
-								BMI Value:
-								<div id="resultStuff" name=desc size=30 class=content readonly align="center"> </div>
-								<!--Category:<div id="resultStuff_Cat" name=desc size=30 class=content readonly align="center"> </div> -->
-								
-									Scale: <div id="resultStuff_scale" name=desc size=30 class=content readonly >
-										<div id="starvation"> 
-										Starvation = 0-14
+		<!-- Contact -->
+			<div class="wrapper wrapper-style2">
+				<article id="contact" class="container small">
+					<header>
+						<h2>Contact Your Caregiver</h2>
+						<span>Send a message to your caregiver with this form.</span>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<form method="post" action="#">
+									<div>
+										<div class="row half">
+											<div class="12u">
+												<input type="text" name="subject" id="subject" placeholder="Subject" />
+											</div>
 										</div>
-										<div id="underweight">
-										Underweight = 15-18
+										<div class="row half">
+											<div class="12u">
+												<textarea name="message" id="message" placeholder="Message"></textarea>
+											</div>
 										</div>
-										<div id="normal">
-										Normal = 19-25
+										<div class="row">
+											<div class="12u">
+												<a href="#" class="button form-button-submit">Send Message</a>
+												<a href="#" class="button button-alt form-button-reset">Clear Form</a>
+											</div>
 										</div>
-										<div id="overweight">
-										Overweight = 25-30
-										</div>
-										<div id="obese">
-										Obese = 30+	
-										</div>
-								
-							</div> <!-- End of bmi_right -->
+									</div>
+								</form>
 							</div>
-							<script language=javascript SRC="js/bmi.js">
-							</script>
 						</div>
 					</div>
-			</div>
-				</article>
-<<<<<<< HEAD
 					<footer>
 						<a href="#" class="go-top">Go Top</a>
 					</footer>
 				</article>
 			</div>
-=======
->>>>>>> FETCH_HEAD
+
+
 	</body>
 </html>
