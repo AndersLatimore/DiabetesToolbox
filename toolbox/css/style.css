@@ -1063,6 +1063,22 @@
 .go-top:hover {
 	background-color: rgba(0, 0, 0, 0.6);
 }
+/*********************************************************************************/
+/* Patients                                                                     */
+/*********************************************************************************/
+.patients {
+    position: absolute;
+    margin: -100px 0 0 -200px;
+    top: 50%;
+    left: 50%;
+	-webkit-column-count:3; /* Chrome, Safari, Opera */
+	-moz-column-count:3; /* Firefox */
+	column-count:3;
+
+	-webkit-column-gap:2em; /* Chrome, Safari, Opera */
+	-moz-column-gap:2em; /* Firefox */
+	column-gap:2em;
+}
 
 /*********************************************************************************/
 /* Copyright                                                                     */
