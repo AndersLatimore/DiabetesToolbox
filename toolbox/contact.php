@@ -37,8 +37,8 @@
 					<li><a href="caregiver.php">Caregiver</a></li>
 					<li><a href="history.php">History</a></li>
 					<li><a href="calendar.php">Calendar</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li><a href="bmi.php" class="active">BMI</a></li>
+					<li><a href="#contact" class="active">Contact</a></li>
+					<li><a href="bmi.php">BMI</a></li>
 				</ul>
 			</nav>
 

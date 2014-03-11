@@ -112,14 +112,10 @@
 					</div>
 				</article>
 			</div>
-<<<<<<< HEAD
 					<footer>
 						<a href="#" class="go-top">Go Top</a>
 					</footer>
 				</article>
 			</div>
-
-=======
->>>>>>> FETCH_HEAD
 	</body>
 </html>
