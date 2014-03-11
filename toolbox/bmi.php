@@ -22,8 +22,8 @@
 		<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
 		<script>
 			$(function () {
-				$('#fWeight').keypad({prompt: 'Enter Height'});
-				$('#fHeight').keypad({prompt: 'Enter Weight'});
+				$('#fWeight').keypad({prompt: 'Enter Weight'});
+				$('#fHeight').keypad({prompt: 'Enter Height'});
 			});
 		</script>
 	</head>
