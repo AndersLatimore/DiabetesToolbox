@@ -40,11 +40,11 @@
 					"Insulincoma", 
 					"Extremly low, risk of unconciousness", 
 					"Risk of insulin-reaction or insulin-chock!", 
-					"Your values are going down! Do someting!",
+					"Your values are going down! Perhaps eat a banana?",
 					"Normal - before meal",
 					"Normal - after meal",
 					"OK - after meal! (but it's max for diabetics...)",
-					"Too high! Do someting!",
+					"Too high! Perhaps lower your carbohydrates for a while?",
 					"Toxic KETONS are building up in your body!",
 					"High risk of serious elektrolyte disturbances!",
 					"VERY high risk of DIABETES COMA!");
