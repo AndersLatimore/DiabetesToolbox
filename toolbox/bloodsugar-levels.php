@@ -68,7 +68,8 @@
 					<div class="row">
 						<div class="8u">
 							<a href="bloodsugar.php" class="button">Back</a>
-							<p>Date: <input type="text" id="datepicker"></p>
+							<p>							
+							 Choose date to see average value:<input type="text" id="datepicker" placeholder="click here"></p>
 							<div id="gauge" class="220x180px"></div>
 							<p style="text-align:center;">
 								<?php 

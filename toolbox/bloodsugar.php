@@ -24,11 +24,23 @@
             function check()
             {
                 var bloodvalue = document.getElementById("bloodValue").value;
-                if(bloodvalue=='' || isNaN(bloodvalue))
+                if(bloodvalue=='' || isNaN(bloodvalue) || bloodvalue < 1 || bloodvalue > 40)
                 {
-                    alert('Please enter a valid value.');
+                    alert('Please enter a valid value. Min value: 1 and Max value: 40');
                     return false;
                 }
+                else{
+                	if (confirm('Is '+bloodvalue+' the correct value??')){
+                		return true;
+                	}
+                	else{
+                		return false;
+                	}
+                }
+            }
+            function checkValue(){
+            	var val = document.getElementById('bloodValue').value;
+            	if(val < 1 || val > 40);
             }
         </script>
         <script>
@@ -62,7 +74,7 @@
 							<form id="bloodsugarForm" name="bloodsugarForm" action="bloodsugar-levels.php" method="POST" onSubmit="return check();">
 							<label>Fill in glucose value here: (no decimals for now...)</label>
 							<input type="text" id="bloodValue" placeholder="Bloodsugar value" name="bloodValue" style="margin-bottom: 2%;">
-							<p><input type="submit" class="button button-big" value="Submit">
+							<p><input type="submit" class="button button-big" value="Submit" onClick="checkValue()">
 							</form>
 
 						</div>
