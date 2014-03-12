@@ -24,7 +24,7 @@
 		<!-- Nav -->
 			<nav id="nav">
 				<ul class="container">
-					<li><a href="#top">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="bloodsugar.php">Glucose</a></li>
 					<li><a href="caregiver.php">Caregiver</a></li>
 					<li><a href="#history" class="active">History</a></li>
